@@ -14,8 +14,8 @@ reference: [Bag of Tricks for Efficient Text Classification](https://arxiv.org/p
 # About the code
 
 The huffman tree should be constructed before training model. 
-
-paths_length.npy   the length of huffman coding of every label.
+```
+paths_length.npy    the length of huffman coding of every label.
 
 cooking.train       train file , contained 12404 examples.
 
@@ -24,3 +24,4 @@ cooking.valid       test file , contained 3000 examples.
 labels.dict         the dict of labels.
 
 words.dict          the dict of all words.
+```
